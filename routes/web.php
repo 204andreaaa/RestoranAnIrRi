@@ -18,12 +18,13 @@ Route::get('/', function () {
     return view('admin/index');
 });
 
-
-Route::get('/user',[MenuController::class, 'index'])->name('admin.index');
-
 Route::get('/about', function () {
     return view('user/about');
 });
+
 Route::get('/service', function () {
     return view('user/service');
 });
+
+
+Route::get('/user',[MenuController::class, 'index'])->name('admin.index');
