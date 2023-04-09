@@ -5,7 +5,7 @@
     <div class="col-12 col-md-12 col-lg-12">
       <div class="card">
         <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
-          <h4>Simple Table</h4>
+          <h4>Simple Tableeeeeeeeeeeee rifki</h4>
           <div>
             <a href="/add" class="btn btn-primary">Tambah data</a>
           </div>
