@@ -58,7 +58,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0 pe-4">
-            <a href="index.html" class="nav-item nav-link active">rumah</a>
+            <a href="/home" class="nav-item nav-link active">rumah</a>
             <a href="/about" class="nav-item nav-link">About</a>
             <a href="/service" class="nav-item nav-link">Service</a>
             <a href="menu.html" class="nav-item nav-link">Menu</a>
@@ -79,6 +79,7 @@
     <!-- Navbar & Hero End -->
 
     @yield("about")
+
 
 
     <!-- Footer Start -->

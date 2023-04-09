@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('about')
+@section('menu')
 <!-- Menu Start -->
 <div class="container-xxl py-5">
   <div class="container">
