@@ -29,7 +29,7 @@
           <div class="p-4">
             <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
             <h5>Master Chefs</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Ini merupakan form card karyawan yang bekerja di restoran kami</p>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@
         <div class="service-item rounded pt-3">
           <div class="p-4">
             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-            <h5>Quality Food</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <h5>Kualitas Makanan</h5>
+            <p>Ini merupakan informasi berisi kualitas dari makanan yang kami sediakan</p>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
           <div class="p-4">
             <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
             <h5>Online Order</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Ini merupakan informasi cara untuk melakukan order online untuk customer</p>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
           <div class="p-4">
             <i class="fa fa-3x fa-headset text-primary mb-4"></i>
             <h5>24/7 Service</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Ini merupakan forum pengaduan kritik & saran kami untuk customer</p>
           </div>
         </div>
       </div>
@@ -90,23 +90,24 @@
       <div class="col-lg-6">
         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About us</h5>
         <h1 class="mb-4">Selamat Datang Di <i class="fa fa-utensils text-primary me-2"></i>Restoran 3 Sekawan</h1>
-        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat
-          ipsum et lorem et sit, sed stet lorem sit.</p>
-        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-          erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+        <p class="mb-4">Selamat datang di Restoran 3 Sekawan! Kami adalah sebuah restoran bergaya Timur Tengah yang terletak di jantung kota Jakarta. 
+          Kami menawarkan pengalaman kuliner yang autentik, dengan menu yang menggabungkan cita rasa tradisional Arab dengan sentuhan modern.</p>
+        <p class="mb-4">Kami bangga menggunakan bahan-bahan segar dan berkualitas dalam setiap hidangan kami. 
+          Menu kami menawarkan beragam pilihan hidangan yang lezat, mulai dari hidangan pembuka yang khas Timur Tengah seperti hummus, falafel, dan tabbouleh, hingga hidangan utama seperti grill daging kambing, ayam tandoori, dan ikan panggang.
+          Kami juga menawarkan beragam hidangan vegetarian yang lezat bagi mereka yang memiliki preferensi diet khusus.</p>
         <div class="row g-4 mb-4">
           <div class="col-sm-6">
             <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
               <div class="ps-4">
-                <p class="mb-0">Years of</p>
-                <h6 class="text-uppercase mb-0">Experience</h6>
+                <p class="mb-0">Tahun</p>
+                <h6 class="text-uppercase mb-0">pengalaman</h6>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">20</h1>
               <div class="ps-4">
                 <p class="mb-0">Popular</p>
                 <h6 class="text-uppercase mb-0">Master Chefs</h6>
@@ -127,7 +128,7 @@
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
       <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-      <h1 class="mb-5">Most Popular Items</h1>
+      <h1 class="mb-5">Menu Hidangan Populer</h1>
     </div>
     <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
       <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -135,8 +136,8 @@
           <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
             <i class="fa fa-coffee fa-2x text-primary"></i>
             <div class="ps-3">
-              <small class="text-body">Popular</small>
-              <h6 class="mt-n1 mb-0">Breakfast</h6>
+              <small class="text-body">Menu</small>
+              <h6 class="mt-n1 mb-0">Sarapan Pagi</h6>
             </div>
           </a>
         </li>
@@ -144,8 +145,8 @@
           <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
             <i class="fa fa-hamburger fa-2x text-primary"></i>
             <div class="ps-3">
-              <small class="text-body">Special</small>
-              <h6 class="mt-n1 mb-0">Launch</h6>
+              <small class="text-body">Menu</small>
+              <h6 class="mt-n1 mb-0">Baru</h6>
             </div>
           </a>
         </li>
@@ -153,8 +154,8 @@
           <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
             <i class="fa fa-utensils fa-2x text-primary"></i>
             <div class="ps-3">
-              <small class="text-body">Lovely</small>
-              <h6 class="mt-n1 mb-0">Dinner</h6>
+              <small class="text-body">Menu</small>
+              <h6 class="mt-n1 mb-0">Special</h6>
             </div>
           </a>
         </li>
@@ -480,48 +481,50 @@
     </div>
     <div class="col-md-6 bg-dark d-flex align-items-center">
       <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-        <h1 class="text-white mb-4">Book A Table Online</h1>
+        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservasi</h5>
+        <h1 class="text-white mb-4">Silahkan isi form untuk booking Online</h1>
         <form>
           <div class="row g-3">
             <div class="col-md-6">
               <div class="form-floating">
                 <input type="text" class="form-control" id="name" placeholder="Your Name">
-                <label for="name">Your Name</label>
+                <label for="name">Nama Anda</label>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-floating">
                 <input type="email" class="form-control" id="email" placeholder="Your Email">
-                <label for="email">Your Email</label>
+                <label for="email">Email Anda</label>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-floating date" id="date3" data-target-input="nearest">
                 <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time"
                   data-target="#date3" data-toggle="datetimepicker" />
-                <label for="datetime">Date & Time</label>
+                <label for="datetime">Tanggal & Waktu</label>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-floating">
                 <select class="form-select" id="select1">
-                  <option value="1">People 1</option>
-                  <option value="2">People 2</option>
-                  <option value="3">People 3</option>
+                  <option value="1">1 Orang</option>
+                  <option value="2">2 Orang</option>
+                  <option value="2">3 Orang</option>
+                  <option value="2">4 Orang</option>
+                  <option value="2">5 Orang</option>
                 </select>
-                <label for="select1">No Of People</label>
+                <label for="select1">Jumlah Orang</label>
               </div>
             </div>
             <div class="col-12">
               <div class="form-floating">
                 <textarea class="form-control" placeholder="Special Request" id="message"
                   style="height: 100px"></textarea>
-                <label for="message">Special Request</label>
+                <label for="message">Special Permintaan</label>
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+              <button class="btn btn-primary w-100 py-3" type="submit">Booking Sekarang</button>
             </div>
           </div>
         </form>
@@ -554,8 +557,8 @@
 <div class="container-xxl pt-5 pb-3">
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-      <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
-      <h1 class="mb-5">Our Master Chefs</h1>
+      <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Karyawan</h5>
+      <h1 class="mb-5">Master Chefs Terbaik</h1>
     </div>
     <div class="row g-4">
       <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -624,55 +627,55 @@
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container">
     <div class="text-center">
-      <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-      <h1 class="mb-5">Our Clients Say!!!</h1>
+      <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimoni</h5>
+      <h1 class="mb-5">Pelanggan Setia!!!</h1>
     </div>
     <div class="owl-carousel testimonial-carousel">
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <p>Pelayanan nya terbaik karyawan ramah dan sopan, saya sangat suka. Bintang 5 untuk rating restoran ini</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-1.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Tantowi</h5>
+            <small>Enginnering</small>
           </div>
         </div>
       </div>
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <p>Recomended banget ini restoran, harga terjangkau kualitas dan pelayanan terbaik. terimakasih untuk semua karyawan</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-2.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Yosua</h5>
+            <small>Pegawai Bank</small>
           </div>
         </div>
       </div>
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <p>Khusus kalian! yang belum kesini buruan deh kesini guys rekomen pokoknya terbaik!!!</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-3.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Nisya</h5>
+            <small>Dokter</small>
           </div>
         </div>
       </div>
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <p>joss banget!! yang belum tau restoran ini rugi banget! ini yang punya rekan saya tetapi saya tetap di perlakukan dengan baik makanan & minuman nya juga terbaik banget!!!</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-4.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Muhammad</h5>
+            <small>Pengusaha</small>
           </div>
         </div>
       </div>
