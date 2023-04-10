@@ -61,10 +61,12 @@
                 </div>
               </div>
               <div class="col-12">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="subject" placeholder="Subject">
-                  <label for="subject">Subject</label>
-                </div>
+              <div class="form-floating">
+              <select style="background-color: white;" type="text" placeholder="Subject" class="form-control" id="subject">
+              <option>Lainnya...</option>                
+              <option>Kritik</option>
+              <option>Saran</option>
+              </select>
               </div>
               <div class="col-12">
                 <div class="form-floating">

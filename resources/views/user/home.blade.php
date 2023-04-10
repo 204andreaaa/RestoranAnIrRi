@@ -4,14 +4,12 @@
   <div class="container my-5 py-5">
     <div class="row align-items-center g-5">
       <div class="col-lg-6 text-center text-lg-start">
-        <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
-        <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-          sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-          dolore erat amet</p>
+        <h1 class="display-3 text-white animated slideInLeft">Selamat Datang pengunjung mabor<br></h1>
+        <p class="text-white animated slideInLeft mb-4 pb-2">Kami menyediakan berbagai menu makanan dan minuman cepat saji dengan kualitas bintang 5 harga kaki lima, silahkan untuk proses order makanan dan minuman mengklik tombol yang ada dibawah</p>
         <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
       </div>
       <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-        <img class="img-fluid" src=".restoran/img/hero.png" alt="">
+        <img class="img-fluid" src="/restoran/img/hero.png" alt="">
       </div>
     </div>
   </div>
@@ -89,7 +87,7 @@
       </div>
       <div class="col-lg-6">
         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About us</h5>
-        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
+        <h1 class="mb-4">Selamat Datang Di <i class="fa fa-utensils text-primary me-2"></i>Restoran 3 Sekawan</h1>
         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat
           ipsum et lorem et sit, sed stet lorem sit.</p>
         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
@@ -561,10 +559,10 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item text-center rounded overflow-hidden">
           <div class="rounded-circle overflow-hidden m-4">
-            <img class="img-fluid" src="img/team-1.jpg" alt="">
+            <img class="img-fluid" src="/restoran/img/team-1.jpg" alt="">
           </div>
-          <h5 class="mb-0">Full Name</h5>
-          <small>Designation</small>
+          <h5 class="mb-0">Irham</h5>
+          <small>Capt Cook</small>
           <div class="d-flex justify-content-center mt-3">
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -575,10 +573,10 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item text-center rounded overflow-hidden">
           <div class="rounded-circle overflow-hidden m-4">
-            <img class="img-fluid" src="img/team-2.jpg" alt="">
+            <img class="img-fluid" src="/restoran/img/team-2.jpg" alt="">
           </div>
-          <h5 class="mb-0">Full Name</h5>
-          <small>Designation</small>
+          <h5 class="mb-0">Andrea</h5>
+          <small>Capt Helper</small>
           <div class="d-flex justify-content-center mt-3">
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -589,10 +587,10 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="team-item text-center rounded overflow-hidden">
           <div class="rounded-circle overflow-hidden m-4">
-            <img class="img-fluid" src="img/team-3.jpg" alt="">
+            <img class="img-fluid" src="/restoran/img/team-3.jpg" alt="">
           </div>
-          <h5 class="mb-0">Full Name</h5>
-          <small>Designation</small>
+          <h5 class="mb-0">Rifki</h5>
+          <small>Capt cook</small>
           <div class="d-flex justify-content-center mt-3">
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -603,10 +601,10 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
         <div class="team-item text-center rounded overflow-hidden">
           <div class="rounded-circle overflow-hidden m-4">
-            <img class="img-fluid" src="img/team-4.jpg" alt="">
+            <img class="img-fluid" src="/restoran/img/team-4.jpg" alt="">
           </div>
-          <h5 class="mb-0">Full Name</h5>
-          <small>Designation</small>
+          <h5 class="mb-0">Reza</h5>
+          <small>Helper</small>
           <div class="d-flex justify-content-center mt-3">
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
