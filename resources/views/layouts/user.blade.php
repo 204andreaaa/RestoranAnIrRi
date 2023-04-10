@@ -61,7 +61,7 @@
             <a href="/home" class="nav-item nav-link active">rumah</a>
             <a href="/about" class="nav-item nav-link">About</a>
             <a href="/service" class="nav-item nav-link">Service</a>
-            <a href="menu.html" class="nav-item nav-link">Menu</a>
+            <a href="/menu" class="nav-item nav-link">Menu</a>
             <div class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
               <div class="dropdown-menu m-0">
@@ -70,7 +70,7 @@
                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
               </div>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="/contact" class="nav-item nav-link">Contact</a>
           </div>
           <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
         </div>
@@ -78,7 +78,7 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    @yield("about")
+    @yield("content")
 
 
 

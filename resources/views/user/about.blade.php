@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('about')
+@section('content')
 
 <div class="container-xxl py-5 bg-dark hero-header mb-5">
   <div class="container text-center my-5 pt-5 pb-4">

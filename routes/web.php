@@ -27,7 +27,12 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('user/about');
 });
-
 Route::get('/service', function () {
     return view('user/service');
+});
+Route::get('/menu', function () {
+    return view('user/menu');
+});
+Route::get('/contact', function () {
+    return view('user/contact');
 });

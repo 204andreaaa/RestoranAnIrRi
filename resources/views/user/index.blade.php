@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('menu')
+@section('content')
 <!-- Menu Start -->
 <div class="container-xxl py-5">
   <div class="container">
@@ -41,7 +41,7 @@
       <div class="tab-content">
         <div id="tab-1" class="tab-pane fade show p-0 active">
           <div class="row g-4">
-            @foreach ($menus as $menu)
+            @foreach ($menuss as $menu)
             <div class="col-lg-6">
               <div class="d-flex align-items-center">
                 <img class="flex-shrink-0 img-fluid rounded" src="{{ $menu->foto }}" alt=""
