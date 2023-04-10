@@ -61,24 +61,26 @@
                 </div>
               </div>
               <div class="col-12">
-              <div class="form-floating">
-              <select style="background-color: white;" type="text" placeholder="Subject" class="form-control" id="subject">
-              <option>Lainnya...</option>                
-              <option>Kritik</option>
-              <option>Saran</option>
-              </select>
-              </div>
-              <div class="col-12">
                 <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a message here" id="message"
-                    style="height: 150px"></textarea>
-                  <label for="message">Message</label>
+                  <select style="background-color: white;" type="text" placeholder="Subject" class="form-control"
+                    id="subject">
+                    <option>Lainnya...</option>
+                    <option>Complain</option>
+                    <option>Kritik</option>
+                    <option>Saran</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                      style="height: 150px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                 </div>
               </div>
-              <div class="col-12">
-                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-              </div>
-            </div>
           </form>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\KocakController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,7 @@ Route::get('/', function () {
 
 
 Route::get('/user',[MenuController::class, 'index'])->name('admin.index');
+Route::get('/contacts',[KocakController::class, 'index'])->name('admin.contact');
 
 Route::get('/home', function () {
     return view('user/home');

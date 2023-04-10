@@ -5,7 +5,9 @@
     <div class="row align-items-center g-5">
       <div class="col-lg-6 text-center text-lg-start">
         <h1 class="display-3 text-white animated slideInLeft">Selamat Datang pengunjung mabor<br></h1>
-        <p class="text-white animated slideInLeft mb-4 pb-2">Kami menyediakan berbagai menu makanan dan minuman cepat saji dengan kualitas bintang 5 harga kaki lima, silahkan untuk proses order makanan dan minuman mengklik tombol yang ada dibawah</p>
+        <p class="text-white animated slideInLeft mb-4 pb-2">Kami menyediakan berbagai menu makanan dan minuman cepat
+          saji dengan kualitas bintang 5 harga kaki lima, silahkan untuk proses order makanan dan minuman mengklik
+          tombol yang ada dibawah</p>
         <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
       </div>
       <div class="col-lg-6 text-center text-lg-end overflow-hidden">
@@ -630,7 +632,7 @@
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
         <div class="d-flex align-items-center">
-          <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+          <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-1.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
             <h5 class="mb-1">Client Name</h5>
@@ -642,7 +644,7 @@
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
         <div class="d-flex align-items-center">
-          <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+          <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-2.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
             <h5 class="mb-1">Client Name</h5>
@@ -654,7 +656,7 @@
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
         <div class="d-flex align-items-center">
-          <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+          <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-3.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
             <h5 class="mb-1">Client Name</h5>
@@ -666,7 +668,7 @@
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
         <div class="d-flex align-items-center">
-          <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg"
+          <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-4.jpg"
             style="width: 50px; height: 50px;">
           <div class="ps-3">
             <h5 class="mb-1">Client Name</h5>
