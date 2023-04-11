@@ -12,4 +12,16 @@ class KocakController extends Controller
         $contacts = Contact::all();
         return view('admin.contact', ['contacts' => $contacts]);
     } 
+    public function add (Request $request)
+    {
+        $data = $request->except('_token');
+        Contact::create($data);
+        return view('user.contact');
+    }
+    public function hapus($id)
+    {
+        $kontak = Contact::find($id);
+        $kontak->delete();
+        return redirect()->route('admin.contact');
+    }
 }

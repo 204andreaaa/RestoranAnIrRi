@@ -90,11 +90,16 @@
       <div class="col-lg-6">
         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About us</h5>
         <h1 class="mb-4">Selamat Datang Di <i class="fa fa-utensils text-primary me-2"></i>Restoran 3 Sekawan</h1>
-        <p class="mb-4">Selamat datang di Restoran 3 Sekawan! Kami adalah sebuah restoran bergaya Timur Tengah yang terletak di jantung kota Jakarta. 
-          Kami menawarkan pengalaman kuliner yang autentik, dengan menu yang menggabungkan cita rasa tradisional Arab dengan sentuhan modern.</p>
-        <p class="mb-4">Kami bangga menggunakan bahan-bahan segar dan berkualitas dalam setiap hidangan kami. 
-          Menu kami menawarkan beragam pilihan hidangan yang lezat, mulai dari hidangan pembuka yang khas Timur Tengah seperti hummus, falafel, dan tabbouleh, hingga hidangan utama seperti grill daging kambing, ayam tandoori, dan ikan panggang.
-          Kami juga menawarkan beragam hidangan vegetarian yang lezat bagi mereka yang memiliki preferensi diet khusus.</p>
+        <p class="mb-4">Selamat datang di Restoran 3 Sekawan! Kami adalah sebuah restoran bergaya Timur Tengah yang
+          terletak di jantung kota Jakarta.
+          Kami menawarkan pengalaman kuliner yang autentik, dengan menu yang menggabungkan cita rasa tradisional Arab
+          dengan sentuhan modern.</p>
+        <p class="mb-4">Kami bangga menggunakan bahan-bahan segar dan berkualitas dalam setiap hidangan kami.
+          Menu kami menawarkan beragam pilihan hidangan yang lezat, mulai dari hidangan pembuka yang khas Timur Tengah
+          seperti hummus, falafel, dan tabbouleh, hingga hidangan utama seperti grill daging kambing, ayam tandoori, dan
+          ikan panggang.
+          Kami juga menawarkan beragam hidangan vegetarian yang lezat bagi mereka yang memiliki preferensi diet khusus.
+        </p>
         <div class="row g-4 mb-4">
           <div class="col-sm-6">
             <div class="d-flex align-items-center border-start border-5 border-primary px-3">
@@ -645,7 +650,8 @@
       </div>
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>Recomended banget ini restoran, harga terjangkau kualitas dan pelayanan terbaik. terimakasih untuk semua karyawan</p>
+        <p>Recomended banget ini restoran, harga terjangkau kualitas dan pelayanan terbaik. terimakasih untuk semua
+          karyawan</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-2.jpg"
             style="width: 50px; height: 50px;">
@@ -669,7 +675,8 @@
       </div>
       <div class="testimonial-item bg-transparent border rounded p-4">
         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-        <p>joss banget!! yang belum tau restoran ini rugi banget! ini yang punya rekan saya tetapi saya tetap di perlakukan dengan baik makanan & minuman nya juga terbaik banget!!!</p>
+        <p>joss banget!! yang belum tau restoran ini rugi banget! ini yang punya rekan saya tetapi saya tetap di
+          perlakukan dengan baik makanan & minuman nya juga terbaik banget!!!</p>
         <div class="d-flex align-items-center">
           <img class="img-fluid flex-shrink-0 rounded-circle" src="/restoran/img/testimonial-4.jpg"
             style="width: 50px; height: 50px;">

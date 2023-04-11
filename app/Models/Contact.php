@@ -13,7 +13,7 @@ class Contact extends Model
         'nama',
         'email',
         'subject',
-        'deskripsi'
-        
+        'deskripsi',
+        'created_at'
     ];
 }

@@ -14,19 +14,25 @@
         <div class="table-responsive">
           <table class="table table-bordered table-md">
             <tr>
-              <th>#</th>
+              <th>No.</th>
               <th>Nama</th>
               <th>Email</th>
               <th>Subject</th>
               <th>Deskripsi</th>
+              <th>Tanggal</th>
+              <th>aksi</th>
             </tr>
             @foreach($contacts as $contact)
             <tr>
-              <td>{{ $contact->id  }}</td>
+              <td>{{ $loop->iteration }}</td>
               <td>{{ $contact->nama }}</td>
               <td>{{ $contact->email }}</td>
               <td>{{ $contact->subject }}</td>
               <td>{{ $contact->deskripsi }}</td>
+              <td>{{ $contact->created_at }}</td>
+              <td>
+                <a href="{{route('contact.hapus',$contact->id)}}" class="btn btn-danger">Hapus</a>
+              </td>
             </tr>
             @endforeach
           </table>

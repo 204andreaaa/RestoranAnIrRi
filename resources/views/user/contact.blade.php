@@ -46,24 +46,25 @@
       </div>
       <div class="col-md-6">
         <div class="wow fadeInUp" data-wow-delay="0.2s">
-          <form>
+          <form enctype="multipart/form-data" method="POST" action="{{ route('user.contact.add')}}">
+            @csrf
             <div class="row g-3">
               <div class="col-md-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  <input name="nama" type="text" class="form-control" id="name" placeholder="Your Name">
                   <label for="name">Your Name</label>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-floating">
-                  <input type="email" class="form-control" id="email" placeholder="Your Email">
+                  <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
                   <label for="email">Your Email</label>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-floating">
-                  <select style="background-color: white;" type="text" placeholder="Subject" class="form-control"
-                    id="subject">
+                  <select name="subject" style="background-color: white;" type="text" placeholder="Subject"
+                    class="form-control" id="subject">
                     <option>Lainnya...</option>
                     <option>Complain</option>
                     <option>Kritik</option>
@@ -72,8 +73,8 @@
                 </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                      style="height: 150px"></textarea>
+                    <textarea name="deskripsi" type="text" class="form-control" placeholder="Leave a message here"
+                      id="message" style="height: 150px"></textarea>
                     <label for="message">Message</label>
                   </div>
                 </div>

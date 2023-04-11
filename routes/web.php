@@ -22,6 +22,9 @@ Route::get('/', function () {
 
 Route::get('/user',[MenuController::class, 'index'])->name('admin.index');
 Route::get('/contacts',[KocakController::class, 'index'])->name('admin.contact');
+Route::post('/add',[KocakController::class, 'add'])->name('user.contact.add');
+Route::get('/contact',[KocakController::class, 'index'])->name('user.contact');
+Route::get('/hapus/{id}',[KocakController::class, 'hapus'])->name('contact.hapus');
 
 Route::get('/home', function () {
     return view('user/home');
