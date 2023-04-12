@@ -32,6 +32,40 @@
 
   <!-- Template Stylesheet -->
   <link href="/restoran/css/style.css" rel="stylesheet">
+  <style>
+    .containerr {
+      position: relative;
+      width: 50%;
+    }
+    
+    .imagee {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middlee {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .containerr:hover .imagee {
+      opacity: 0.3;
+    }
+    
+    .containerr:hover .middlee {
+      opacity: 1;
+    }
+    </style>
 </head>
 
 <body>

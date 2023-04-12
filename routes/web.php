@@ -20,6 +20,20 @@ Route::get('/', function () {
 });
 
 
+Route::get('/menu',[MenuController::class, 'index'])->name('user.menu');
+Route::post('/cart',[MenuController::class, 'cart'])->name('user.menu.cart');
+Route::get('/checkout',[MenuController::class, 'checkout'])->name('user.checkout');
+
+
+Route::post('delete',[MenuController::class, 'cartdelete'])->name('cartdelete');
+Route::post('cartupdate',[MenuController::class, 'cartupdate'])->name('cartupdate');
+Route::post('deleteallcart',[MenuController::class, 'deleteallcart'])->name('deleteallcart');
+Route::post('tambahPesanan',[MenuController::class, 'tambahPesanan'])->name('tambahPesanan');
+Route::post('kurangPesanan',[MenuController::class, 'kurangPesanan'])->name('kurangPesanan');
+
+
+
+
 Route::get('/user',[MenuController::class, 'index'])->name('admin.index');
 Route::get('/contacts',[KocakController::class, 'index'])->name('admin.contact');
 Route::post('/add',[KocakController::class, 'add'])->name('user.contact.add');
@@ -34,9 +48,6 @@ Route::get('/about', function () {
 });
 Route::get('/service', function () {
     return view('user/service');
-});
-Route::get('/menu', function () {
-    return view('user/menu');
 });
 Route::get('/contact', function () {
     return view('user/contact');
