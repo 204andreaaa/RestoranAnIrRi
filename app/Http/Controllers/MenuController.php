@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Menu;
-use \Darryldecode\Cart\Cart;
 
 class MenuController extends Controller
 {
@@ -17,7 +16,7 @@ class MenuController extends Controller
 
     public function cart(Request $request)
     {
-        Cart::add([
+        \Cart::add([
             'id' => $request->id,
             'name' => $request->nama,
             'price' => $request->harga,
@@ -31,31 +30,31 @@ class MenuController extends Controller
     }
     public function cartdelete(Request $r)
     {
-        Cart::remove($r->id);
+        \Cart::remove($r->id);
         return redirect(url('/checkout'));
     }
     public function cartupdate(Request $r)
     {
-        Cart::update($r->id, [
+        \Cart::update($r->id, [
             'quantity' => -1,
         ]);
         return redirect(url('/checkout'));
     }
     public function deleteallcart(Request $r)
     {
-        Cart::Clear();
+        \Cart::Clear();
         return redirect(url('/checkout'));
     }
     public function tambahPesanan(Request $r)
     {
-        Cart::update($r->id_tambah, [
+        \Cart::update($r->id_tambah, [
             'quantity' => 1,
         ]);
         return redirect(url('/checkout'));
     }
     public function kurangPesanan(Request $r)
     {
-        Cart::update($r->id_kurang, [
+        \Cart::update($r->id_kurang, [
             'quantity' => -1,
         ]);
         return redirect(url('/checkout'));
